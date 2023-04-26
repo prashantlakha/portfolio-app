@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  jslogo,
+  infosys,
+  pulogo,
+  lambton,
+  bootstrap,
 } from "../assets";
 
 export const navLinks = [
@@ -43,7 +48,7 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: jslogo,
   },
   {
     title: "React Native Developer",
@@ -52,10 +57,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -72,16 +73,21 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "BootStrap 5",
+    icon: bootstrap,
+  },
+  {
+    name: "React Native",
+    icon: reactjs,
+  },
+  {
+    name: "Redux",
     icon: redux,
   },
   {
@@ -97,75 +103,58 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "System Engineer",
+    company_name: "Infosys",
+    icon: infosys,
+    iconBg: "#ffffff",
+    date: "September 2020 - December 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Programmed end-to-end Web application development using React and NodeJ for an insurance company in Canada in 5 months.",
+      "Developed front-end code using ReactJS, Sass, and BootStrap for designs provided in Figma and AdobeXD.",
+      "Standardized WCAG level AA accessibility for applications. ",
+      "Using Jest and Enzyme, worked on test cases for application units. Integrated CMS using GraphQL.",
+      "Used JIRA, Panaya, Git, and GitLab tools while working on projects.",
+      "Upgraded UI components of Canada Buys application in drupal and supported in frontend site.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Intern",
+    company_name: "Infosys",
+    icon: infosys,
+    iconBg: "#ffffff",
+    date: "Jan 2020 - April 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Got training for 3 months from industry experts in the latest technologies: Java Spring boot, SQL, HTML5, CSS, Bootstrap, and ReactJS.",
+      "Successfully cleared their training examinations.",
     ],
   },
+];
+
+const educations = [
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    title: "Post-Graduate Diploma",
+    company_name: "Lambton College",
+    branch: "Mobile Application Design and Development",
+    icon: lambton,
+    iconBg: "#ffffff",
+    date: "2022 - 2023",
+    cgpa: "3.5/4",
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    title: "Bachelor of Engineering",
+    company_name: "Panjab University, Chandigarh",
+    branch: "Computer Science",
+    icon: pulogo,
+    iconBg: "#ffffff",
+    date: "2016-2020",
+    cgpa: "7.54/10",
   },
 ];
 
@@ -262,4 +251,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  educations,
+};

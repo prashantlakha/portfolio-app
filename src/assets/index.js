@@ -29,8 +29,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import jslogo from "./js-logo.webp";
+import infosys from "./infosys.png";
+import pulogo from "./pu-logo.jpg";
+import lambton from "./lambton.png";
+import bootstrap from "./tech/bootstrap.png";
 
 export {
+  lambton,
+  pulogo,
+  infosys,
   logo,
   backend,
   creator,
@@ -52,6 +60,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  bootstrap,
   meta,
   shopify,
   starbucks,
@@ -59,4 +68,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  jslogo,
 };
