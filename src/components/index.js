@@ -12,6 +12,7 @@ import Experience from "./Experience";
 import Works from "./Works";
 import Contact from "./Contact";
 import Education from "./Education";
+import Resume from "./Resume";
 // import Banner from "./Banner";
 
 export {
@@ -27,4 +28,5 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
+  Resume,
 };

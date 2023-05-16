@@ -28,6 +28,7 @@ import {
   pulogo,
   lambton,
   bootstrap,
+  travelApp,
 } from "../assets";
 
 export const navLinks = [
@@ -51,12 +52,8 @@ const services = [
     icon: jslogo,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Mobile App Developer",
+    icon: reactjs,
   },
 ];
 
@@ -187,16 +184,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Travel App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Mobile Travel application that helps users look for hotels, restaurants, and places of attraction anywhere on Earth",
     tags: [
       {
-        name: "react",
+        name: "react native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "expo",
         color: "green-text-gradient",
       },
       {
@@ -204,8 +201,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: travelApp,
+    source_code_link: "https://github.com/prashantlakha/travel-app.git",
   },
   {
     name: "Job IT",
