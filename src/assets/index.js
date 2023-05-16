@@ -21,13 +21,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import blogApp from "./blogApp.png";
 import travelApp from "./travelApp.png";
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import jslogo from "./js-logo.webp";
@@ -62,13 +57,8 @@ export {
   typescript,
   threejs,
   bootstrap,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
   tripguide,
   travelApp,
   jslogo,
+  blogApp,
 };

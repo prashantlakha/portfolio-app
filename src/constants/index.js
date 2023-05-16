@@ -1,10 +1,5 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -13,22 +8,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   jslogo,
   infosys,
   pulogo,
   lambton,
   bootstrap,
   travelApp,
+  blogApp,
 } from "../assets";
 
 export const navLinks = [
@@ -205,46 +191,25 @@ const projects = [
     source_code_link: "https://github.com/prashantlakha/travel-app.git",
   },
   {
-    name: "Job IT",
+    name: "Blog Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to read, write, update and delete the blogs and also can read what other people write.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongo",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: blogApp,
+    source_code_link: "https://github.com/prashantlakha/Blog-app-MERN.git",
   },
 ];
 
